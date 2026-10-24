@@ -25,7 +25,9 @@ int main(){
         cout <<"2. Mostrar reporte general"<<endl;
         cout <<"3. Buscar estudiante por nombre"<<endl;
         cout <<"4. Salir"<<endl;
-    } while ();
+        cout <<"Seleccione una opcion: ";
+        cin >> opcion;
+    } while (opcion != 4);
     
 
 return 0;
